@@ -1,0 +1,48 @@
+body {
+    background-image: url('cafe.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(153, 102, 153);
+}
+
+
+  .container {
+    background-color: #BB5E00;
+    padding: 20px;
+    border: 2px solid #ddd;
+    width: 80%;
+    margin: auto; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+.text-center{
+    text-align: center;
+}
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
