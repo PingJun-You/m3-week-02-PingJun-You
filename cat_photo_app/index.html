@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <title>我的第一個網頁</title>
+</head>
+<body>
+
+
+<div class="bg-white p-8">
+    <div class="mb-4">
+        <h1 class="text-4xl font-bold">CatPhotoApp</h1>
+    </div>
+    <div class="mb-8">
+        <h2 class="text-2xl font-semibold">Cat Photos</h2>
+        <p>
+            See more
+            <a href="https://www.example.com">cat photos</a>
+            in our gallery.
+        </p>
+        <img
+                src="OIP.jpg"
+                width="150"
+                height="150"
+        />
+    </div>
+
+
+    <div class="mb-8">
+        <h2 class="text-2xl font-semibold">Cat Lists</h2>
+        <p class="bold-and-large">Things cats love:</p>
+
+        <ul>
+            <li>cat nip</li>
+            <li>laser poniters</li>
+            <li>lasagna</li>
+        </ul>
+
+        <div>
+
+            <img src="cat.png"
+                 width="150"
+                 height="150"
+                 alt="描述性文字">
+            <p>Cats <em>love</em> lasagna.</p>
+
+        </div>
+
+        <p class="bold-and-large">Top 3 things cats hate:</p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <img src="cat.png"
+             width="150"
+             height="150"
+             alt="描述性文字">
+        <p>Cats
+            <stron>hate</stron>
+            other cats.
+        </p>
+    </div>
+
+
+    <div class="mb-8">
+        <h2 class="text-2xl font-semibold">Cat Form</h2>
+
+        <form action="">
+            <p>Is ur cat an indoor or outdoor cat?</p>
+            <input type="radio" name="inout_ca" id="Indoor">
+            <labl>Indoor</labl>
+            <input type="radio" name="inout_ca" id="Outdoor">
+            <labl>Outdoor</labl>
+
+            <p>what;s ur cats personality?</p>
+            <input type="checkbox" name="interest1" id="Loving">
+            <labl>Loving</labl>
+            <input type="checkbox" name="interest2" id="Lazy">
+            <labl>Lazy</labl>
+            <input type="checkbox" name="interest3" id="Energtic">
+            <labl>Energtic</labl>
+        </form>
+    </div>
+
+    <div>
+        <input type="text" placeholder="cat photo URL." name="" id="">
+        <button type="button">Submit</button>
+    </div>
+
+    <div>
+        <p>No Copyright - <a href="https://www.example.com"> freeCodeCamp.org</a></p>
+    </div>
+</div>
+<script>
+    // 禁用右鍵點擊的JavaScript代碼
+    document.addEventListener('contextmenu', function (event) {
+        event.preventDefault();
+        alert('右鍵點擊被禁用了！');
+    });
+</script>
+
+</body>
+
+</html>
